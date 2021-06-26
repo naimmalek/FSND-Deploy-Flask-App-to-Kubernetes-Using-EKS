@@ -86,6 +86,7 @@ Resources:
                 Action:
                   - codebuild:BatchGetBuilds
                   - codebuild:StartBuild
+                  - codebuild:CreateProject
                 Resource: '*'
               -
                 Effect: Allow
